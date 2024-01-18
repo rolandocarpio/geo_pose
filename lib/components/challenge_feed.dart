@@ -1,5 +1,3 @@
-// challenge_feed.dart
-
 import '../screens/challenge_details_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +9,6 @@ class ChallengeFeed extends StatelessWidget {
         ChallengeItem(),
         ChallengeItem(),
         ChallengeItem(),
-        // Add more ChallengeItem widgets as needed
       ],
     );
   }

@@ -1,5 +1,3 @@
-// leaderboard.dart
-
 import 'package:flutter/material.dart';
 
 class Leaderboard extends StatelessWidget {
@@ -17,7 +15,6 @@ class Leaderboard extends StatelessWidget {
           LeaderboardItem(),
           LeaderboardItem(),
           LeaderboardItem(),
-          // Add more LeaderboardItem widgets as needed
         ],
       ),
     );

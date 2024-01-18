@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'challenge_details_screen.dart'; // Import your ChallengeDetailsScreen
+import 'challenge_details_screen.dart';
 
 class UserProfileScreen extends StatefulWidget {
   @override
@@ -7,7 +7,7 @@ class UserProfileScreen extends StatefulWidget {
 }
 
 class _UserProfileScreenState extends State<UserProfileScreen> {
-  int userPoints = 0; // State variable to track user points
+  int userPoints = 0;
   TextEditingController nameController = TextEditingController();
 
   @override
@@ -35,17 +35,12 @@ class _UserProfileScreenState extends State<UserProfileScreen> {
             ),
             SizedBox(height: 16.0),
 
-            // ... (other profile information)
-
             // Display Challenges
             Text(
               'Challenges:',
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 8.0),
-            // Display challenges (you can update this part based on your challenge data structure)
-            // For simplicity, I'm assuming a list of challenge descriptions
-            // challenges.map((challenge) => Text(challenge)).toList(),
 
             // Button to navigate to ChallengeDetailsScreen
             ElevatedButton(
@@ -67,8 +62,6 @@ class _UserProfileScreenState extends State<UserProfileScreen> {
               },
               child: Text('Take a Challenge'),
             ),
-
-            // ... (rest of your code)
           ],
         ),
       ),

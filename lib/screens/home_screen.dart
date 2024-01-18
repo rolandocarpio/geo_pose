@@ -1,5 +1,3 @@
-// home_screen.dart
-
 import 'package:flutter/material.dart';
 import 'package:geo_pose/screens/user_profile_screen.dart';
 import '../components/challenge_feed.dart';

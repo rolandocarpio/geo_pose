@@ -80,7 +80,7 @@ class _ChallengeDetailsScreenState extends State<ChallengeDetailsScreen> {
     if (imageFile != null && imageFile.existsSync()) {
       final imagePath = imageFile.path;
 
-      // Save challenge details and image path (replace with your storage solution)
+      // Save challenge details and image path
       _saveChallengeDetails(challengeDescription, imagePath);
 
       // Reward the current user with 50 points and return the points to the previous screen
@@ -99,16 +99,12 @@ class _ChallengeDetailsScreenState extends State<ChallengeDetailsScreen> {
   }
 
   void _saveChallengeDetails(String description, String imagePath) {
-    // Implement the logic to save challenge details and image path.
-    // For simplicity, let's just print the details.
     print('Challenge Details Saved:');
     print('Description: $description');
     print('Image Path: $imagePath');
   }
 
   void _rewardCurrentUser(int points) {
-    // Implement the logic to reward the current user with the specified points.
-    // For simplicity, let's just print the reward details.
     print('User Rewarded with $points points!');
   }
 
